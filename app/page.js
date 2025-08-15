@@ -8,7 +8,7 @@ export default function Home() {
     <section className="mainbanner">
       <div className="container">
         <div className="mainbanner__wrap">
-          <div className="main__title">Nature's Touch in Every Piece</div>
+          <div className="main__title">Nature&apos;s Touch in Every Piece</div>
           <div className="main__info">We create handcrafted ceramics inspired by nature, stillness, and the quiet warmth of home. Each piece is made slowly, intentionally — from soil, fire, and feeling.</div>
         </div>
       </div>
