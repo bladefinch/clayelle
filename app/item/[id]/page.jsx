@@ -36,7 +36,7 @@ export default function ItemPage({params}){
                         <div className="item__moreinfo">
                             <div className="item__minititle">Details:</div>
                             <div className="item__miniinfo">
-                                {item.details.map((detail, index) => <li key={index}>{detail}</li>)}
+                                {item.details.map((detail, index) => <div key={index}>{detail}</div>)}
                             </div>
                         </div>
                     </div> 
