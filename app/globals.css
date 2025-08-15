@@ -9,7 +9,7 @@ html{
 body{
   font-family: var(--font-info);
   font-weight: 200;
-  font-size: 20;
+  font-size: 20px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -22,7 +22,7 @@ body{
 .header{
   background-color: black;
   color: white;
-  padding: 0 20;
+  padding: 0 20px;
 
   position: sticky;
   top: 0;
@@ -34,7 +34,7 @@ body{
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 5 0;
+  padding: 5px 0;
 }
 
 .header a{
@@ -47,7 +47,7 @@ body{
 
 .header__mid{
   font-family: var(--font-title);
-  font-size: 36;
+  font-size: 36px;
   color: white;
 }
 
@@ -56,11 +56,11 @@ body{
 }
 
 .header img{
-  width: 32;
+  width: 32px;
 }
 
 .header__right a{
-  margin-right: 20;
+  margin-right: 20px;
 }
 
 .header__right a:last-child{
@@ -93,15 +93,15 @@ body{
 
 @media (max-width: 425px){
   .header img{
-    width: 28;
+    width: 28px;
   }
 
   .header__mid{
-    font-size: 30;
+    font-size: 30px;
   }
 
   .header__right a{
-    margin-right: 10;
+    margin-right: 10px;
   }
 }
 
@@ -139,7 +139,7 @@ body{
 
 @media (max-width: 768px){
   .sliderbar{
-    padding: 40 20px;
+    padding: 40px 20px;
   }
 }
 
@@ -156,7 +156,7 @@ body{
   background-color: black;
   color: white;
 
-  padding-bottom: 50;
+  padding-bottom: 50px;
 }
 
 .footer a{
@@ -166,8 +166,8 @@ body{
 .footer__wrap{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40;
-  padding: 20;
+  gap: 40px;
+  padding: 20px;
 }
 
 .footer__column a{
@@ -184,8 +184,8 @@ body{
 .footer__logo{
   font-family: var(--font-title);
   text-align: center;
-  padding: 50 0;
-  font-size: 60;
+  padding: 50px 0;
+  font-size: 60px;
 }
 
 @media (max-width: 1024px){
@@ -210,28 +210,28 @@ body{
   background-size: cover;
   height: 100vh;
 
-  padding: 0 20;
+  padding: 0 20px;
   align-content: center;
 }
 
 .main__title{
   font-family: var(--font-title);
-  font-size: 128;
+  font-size: 128px;
   width: 600;
 }
 
 .main__info{
   width: 50%;
-  padding-top: 50;
+  padding-top: 50px;
 }
 
 @media (max-width: 1024px){
   .mainbanner{
-    height: 800;
+    height: 800px;
   }
 
   .main__title{
-    font-size: 120;
+    font-size: 120px;
   }
 
   .main__info{
@@ -241,39 +241,39 @@ body{
 
 @media (max-width: 768px){
   .mainbanner{
-    height: 700;
+    height: 700px;
   }
 
   .main__title{
-    font-size: 112;
-    width: 400;
+    font-size: 112px;
+    width: 400px;
   }
 
   .main__info{
     width: 100%;
-    padding-top: 20;
+    padding-top: 20px;
   }
 }
 
 @media (max-width: 425px){
   .mainbanner{
-    height: 600;
+    height: 600px;
   }
 
   .main__title{
-    font-size: 80;
-    width: 300;
+    font-size: 80px;
+    width: 300px;
   }
 
   .main__info{
-    font-size: 16;
+    font-size: 16px;
   }
 }
 /* MAIN BANNER END*/
 
 /* MAIN SLIDER START*/
 .mainslider{
-  margin: 50 0;
+  margin: 50px 0;
 }
 
 .swiper{
@@ -302,8 +302,8 @@ body{
 
 .main__slider__info{
   position: absolute;
-  top: 20;
-  left: 20;
+  top: 20px;
+  left: 20px;
 }
 
 .main__slider__title{
@@ -313,20 +313,20 @@ body{
 
 .main__slider__price{
   font-family: var(--font-title);
-  font-size: 24;
+  font-size: 24px;
 }
 
 .button{
   text-decoration: none;
   color: white;
   background-color: black;
-  padding: 5 50;
+  padding: 5px 50px;
   text-transform: uppercase;
   
   display: grid;
   justify-self: center;
 
-  margin-top: 10;
+  margin-top: 10px;
 }
 /* MAIN SLIDER END*/
 
@@ -345,13 +345,13 @@ body{
 }
 
 .banner__info{
-  padding: 0 20;
+  padding: 0 20px;
 }
 
 .title{
   font-family: var(--font-title);
-  font-size: 32;
-  padding-bottom: 20;
+  font-size: 32px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 1024px){
@@ -363,12 +363,12 @@ body{
     display: flex;
     width: 80%;
     margin-left: auto;
-    margin-top: 20;
+    margin-top: 20px;
   }
 
   .banner2 .banner1__img{
     margin-left: 0;
-    margin-bottom: 20;
+    margin-bottom: 20px;
   }
 
   .banner__info{
@@ -383,7 +383,7 @@ body{
 @media (max-width: 768px){
   .banner1__img{
     width: 90%;
-    height: 400;
+    height: 400px;
     object-fit: cover;
     object-position: 50% center;
   }
@@ -395,16 +395,16 @@ body{
 
 @media (max-width: 425px){
   .banner1{
-    font-size: 16;
+    font-size: 16px;
   }
 
   .title{
-    font-size: 24;
+    font-size: 24px;
   }
 
   .banner1__img{
     width: 90%;
-    height: 300;
+    height: 300px;
   }
 
   .banner__info{
@@ -421,14 +421,14 @@ body{
 
 /* MAIN BANNER 3 START */
 .banner3{
-  margin-bottom: 50;
+  margin-bottom: 50px;
   padding-bottom: 0;
-  padding-top: 100;
+  padding-top: 100px;
   background-image: url(/img/banner3.png);
   background-position: 50% 20%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600;
+  height: 600px;
 }
 
 .banner3 .banner__info{
@@ -437,7 +437,7 @@ body{
 
 @media (max-width: 425px){
   .banner3{
-    height: 500;
+    height: 500px;
   }
 }
 /* MAIN BANNER 3 END */
@@ -452,46 +452,46 @@ body{
 }
 
 .item__page__wrap{
-  padding: 50 20;
+  padding: 50px 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .item__pagebuy__wrap{
   justify-self: right;
-  width: 400;
+  width: 400px;
   position: sticky;
-  top: 60;
+  top: 60px;
 }
 
 .item__pagebuy__wrap .button{
   width: 100%;
   text-align: center;
-  padding: 10;
-  margin-bottom: 20;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .item__orderinfo{
-  font-size: 14;
+  font-size: 14px;
 }
 
 .item__title__wrap{
-  padding-bottom: 50;
+  padding-bottom: 50px;
 }
 
 .item__title{
   text-transform: uppercase;
-  font-size: 24;
-  padding-bottom: 10;
+  font-size: 24px;
+  padding-bottom: 10px;
 }
 
 .item__price{
   font-family: var(--font-title);
-  font-size: 28;
+  font-size: 28px;
 }
 
 .item__moreinfo{
-  padding-bottom: 20;
+  padding-bottom: 20px;
 }
 
 .item__moreinfo:last-child{
@@ -500,40 +500,40 @@ body{
 
 .item__minititle{
   text-transform: uppercase;
-  font-size: 16;
+  font-size: 16px;
 }
 
 .item__miniinfo{
-  font-size: 16;
+  font-size: 16px;
 }
 
 .item__recs{
-  padding: 50 0 80;
+  padding: 50px 0 80px;
 }
 
 .item__recs__title{
   text-align: center;
   font-family: var(--font-title);
-  font-size: 28;
-  padding-bottom: 20;
+  font-size: 28px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 768px){
   .item__page__wrap{
-    padding: 20;
+    padding: 20px;
     grid-template-columns: repeat(1, 1fr);
   }
 
   .item__title__wrap{
-    padding-bottom: 10;
+    padding-bottom: 10px;
   }
 
   .item__title{
-    font-size: 20;
+    font-size: 20px;
   }
 
   .item__price{
-    font-size: 24;
+    font-size: 24px;
   }
 
   .item__pagebuy__wrap{
@@ -541,7 +541,7 @@ body{
     width: 100%;
     position: static;
     top: 0;
-    padding-bottom: 40;
+    padding-bottom: 40px;
   }
 }
 /* ITEM PAGE END */
@@ -554,14 +554,14 @@ body{
   background-size: cover;
   height: 100vh;
 
-  padding: 0 20;
+  padding: 0 20px;
   align-content: center;
 }
 
 .store__items__wrap{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 20;
+  padding: 20px;
 }
 
 .itemcard{
@@ -572,7 +572,7 @@ body{
 .itemcard__info__wrap{
   color: black;
   width: 100%;
-  padding: 20;
+  padding: 20px;
   position: absolute;
   top: 0;
   left: -100%;
@@ -586,13 +586,13 @@ body{
 .itemcard__img{
   display: block;
   width: 100%;
-  min-height: 350;
+  min-height: 350px;
   object-fit: cover;
 }
 
 @media (max-width: 1024px){
   .store__banner{
-    height: 800;
+    height: 800px;
   }
 
   .store__items__wrap{
@@ -600,7 +600,7 @@ body{
   }
 
   .itemcard__img{
-    min-height: 300;
+    min-height: 300px;
   }
 
   .itemcard__info__wrap{
@@ -610,15 +610,15 @@ body{
 
 @media (max-width: 768px){
   .store__banner{
-    height: 700;
+    height: 700px;
   }
 
   .itemcard .main__slider__title{
-    font-size: 16;
+    font-size: 16px;
   }
 
   .itemcard .main__slider__price{
-    font-size: 20;
+    font-size: 20px;
   }
 
   .store__items__wrap{
@@ -626,17 +626,17 @@ body{
   }
 
   .itemcard__info__wrap{
-    padding: 10;
+    padding: 10px;
   }
 
   .itemcard__img{
-    min-height: 250;
+    min-height: 250px;
   }
 }
 
 @media (max-width: 425px){
   .store__banner{
-    height: 600;
+    height: 600px;
   }
 
   .store__items__wrap{
