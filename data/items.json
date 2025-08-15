@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "pic": "/items/1.png",
+        "pic_full": "/items/1_full.png",
+        "name": "Honeydrop",
+        "description": "Warm and golden like the first spoonful of honey in spring",
+        "method": "Slab-built and rounded gently, dipped in amber gloss glaze with natural speckles",
+        "details": ["Volume: 180 ml", "Height: 6.5 cm", "Radius: 7.5 cm", "Color: Soft ivory with silver rim", "Material: Porcelain"],
+        "price": "$29"
+    },
+    {
+        "id": 2,
+        "pic": "/items/2.png",
+        "pic_full": "/items/2_full.png",
+        "name": "Misty Belle",
+        "description": "A whisper of morning fog clinging to wildflowers",
+        "method": "Hand-coiled and smoothed, finished with translucent lilac glaze and frosted accents",
+        "details": ["Volume: 180 ml", "Height: 6.5 cm", "Radius: 7.5 cm", "Color: Soft ivory with silver rim", "Material: Porcelain"],
+        "price": "$49"
+    },
+    {
+        "id": 3,
+        "pic": "/items/3.png",
+        "pic_full": "/items/3_full.png",
+        "name": "Daisyglow",
+        "description": "Cheerful and bright, like sunlight dancing through daisies",
+        "method": "Wheel-thrown and flared, coated in warm white glaze with golden drip edging",
+        "details": ["Volume: 180 ml", "Height: 6.5 cm", "Radius: 7.5 cm", "Color: Soft ivory with silver rim", "Material: Porcelain"],
+        "price": "$49"
+    },
+    {
+        "id": 4,
+        "pic": "/items/4.png",
+        "pic_full": "/items/4_full.png",
+        "name": "Willow Wink",
+        "description": "Gentle and swaying, a soft smile in ceramic form",
+        "method": "Built from layered slabs, painted in pale green wash with hand-carved ridges",
+        "details": ["Volume: 180 ml", "Height: 6.5 cm", "Radius: 7.5 cm", "Color: Soft ivory with silver rim", "Material: Porcelain"],
+        "price": "$49"
+    },
+    {
+        "id": 5,
+        "pic": "/items/5.png",
+        "pic_full": "/items/5_full.png",
+        "name": "Pebble Peep",
+        "description": "Small and smooth like a hidden stone on a riverbank",
+        "method": "Molded by hand, speckled gray glaze with a satin finish and natural dimples",
+        "details": ["Volume: 180 ml", "Height: 6.5 cm", "Radius: 7.5 cm", "Color: Soft ivory with silver rim", "Material: Porcelain"],
+        "price": "$49"
+    },
+    {
+        "id": 6,
+        "pic": "/items/6.png",
+        "pic_full": "/items/6_full.png",
+        "name": "Luna Sip",
+        "description": "A quiet evening moon captured in porcelain, soft and serene",
+        "method": " Wheel-thrown and glazed in pale ivory with a hand-brushed silver rim",
+        "details": ["Volume: 180 ml", "Height: 6.5 cm", "Radius: 7.5 cm", "Color: Soft ivory with silver rim", "Material: Porcelain"],
+        "price": "$29"
+    },
+    {
+        "id": 7,
+        "pic": "/items/7.png",
+        "pic_full": "/items/7_full.png",
+        "name": "Cloudette",
+        "description": "As light as a drifting cloud, made for sweet moments",
+        "method": "Hand-thrown with a thin lip, glazed in matte sky-white and soft blue pooling inside",
+        "details": ["Volume: 180 ml", "Height: 6.5 cm", "Radius: 7.5 cm", "Color: Soft ivory with silver rim", "Material: Porcelain"],
+        "price": "$29"
+    },
+    {
+        "id": 8,
+        "pic": "/items/8.png",
+        "pic_full": "/items/8_full.png",
+        "name": "Petal Nest",
+        "description": "Like holding a blossom in your palm — delicate, curved, and calm",
+        "method": "Pinched by hand, finished with a blush pink glaze and a satin touch",
+        "details": ["Volume: 180 ml", "Height: 6.5 cm", "Radius: 7.5 cm", "Color: Soft ivory with silver rim", "Material: Porcelain"],
+        "price": "$29"
+    }
+]

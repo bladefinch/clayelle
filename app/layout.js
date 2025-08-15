@@ -1,13 +1,18 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Staatliches, Outfit } from "next/font/google";
 import "./globals.css";
+import 'modern-normalize';
+import Header from "./components/header";
+import Footer from "./components/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const staatliches = Staatliches({
+  variable: "--font-title",
+  weight: ['400'],
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const outfit = Outfit({
+  variable: "--font-info",
+  weight: ['200','400','600'],
   subsets: ["latin"],
 });
 
@@ -20,9 +25,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${staatliches.variable} ${outfit.variable} antialiased`}>
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
