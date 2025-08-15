@@ -274,6 +274,7 @@ body{
 /* MAIN SLIDER START*/
 .mainslider{
   margin: 50px 0;
+  justify-content: center;
 }
 
 .swiper{
@@ -323,8 +324,7 @@ body{
   padding: 5px 50px;
   text-transform: uppercase;
   
-  display: grid;
-  justify-self: center;
+  display: inline-block;
 
   margin-top: 10px;
 }
@@ -505,6 +505,10 @@ body{
 
 .item__miniinfo{
   font-size: 16px;
+}
+
+.item__miniinfo li{
+  padding-left: 20;
 }
 
 .item__recs{
