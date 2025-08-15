@@ -274,7 +274,6 @@ body{
 /* MAIN SLIDER START*/
 .mainslider{
   margin: 50px 0;
-  justify-content: center;
 }
 
 .swiper{
@@ -285,6 +284,10 @@ body{
 
   --swiper-pagination-color: black;
   --swiper-pagination-bottom: 20px;
+}
+
+.mainslider__wrap{
+  text-align: center;
 }
 
 .main__slider__pic__wrap{
@@ -305,6 +308,7 @@ body{
   position: absolute;
   top: 20px;
   left: 20px;
+  text-align: left;
 }
 
 .main__slider__title{
@@ -508,7 +512,7 @@ body{
 }
 
 .item__miniinfo li{
-  padding-left: 20;
+  margin-left: 20;
 }
 
 .item__recs{

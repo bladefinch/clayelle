@@ -15,8 +15,10 @@ export default function Home() {
     </section>
     <section className="mainslider">
       <div className="container">
-        <MainSlider/>
-        <Link href="/store" className="button">More</Link>
+        <div className="mainslider__wrap"> 
+          <MainSlider/>
+          <Link href="/store" className="button">More</Link>
+        </div>
       </div>
     </section>
     <section className="banner1">
